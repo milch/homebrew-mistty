@@ -16,7 +16,7 @@ cask "mistty" do
   depends_on macos: ">= :sonoma"
 
   app "Mistty.app"
-  binary "#{appdir}/Mistty.app/Contents/MacOS/mistty-cli", target: "mistty"
+  binary "#{appdir}/Mistty.app/Contents/MacOS/mistty-cli", target: "mistty-cli"
 
   postflight do
     system "/usr/bin/xattr", "-dr", "com.apple.quarantine", "#{appdir}/Mistty.app"
