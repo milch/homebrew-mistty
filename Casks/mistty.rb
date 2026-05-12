@@ -1,6 +1,6 @@
 cask "mistty" do
-  version "0.10.0"
-  sha256 "2ed3817187ec030825dd6b7c1253ad6e27f4f42a402f948b8944b538d369f4ab"
+  version "0.11.0"
+  sha256 "8254f020c78dfd244d62873a93287bd46b1d9d9bc2d10e32b27daca7eb27548c"
 
   url "https://github.com/milch/mistty/releases/download/v#{version}/Mistty-v#{version}-arm64.zip"
   name "Mistty"
